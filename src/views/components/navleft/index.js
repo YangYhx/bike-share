@@ -17,9 +17,17 @@ class navleft  extends Component{
                    <MenuItem key="首页">
                        <Link to="/admin/home">首页</Link>
                    </MenuItem>
-                   <MenuItem key="第二页">
-                       <Link to="/admin/second">第二页</Link>
+                   <MenuItem key="订单">
+                       <Link to="/admin/order">订单列表</Link>
                    </MenuItem>
+                   <SubMenu title='图表'>
+                       <MenuItem key='饼状图'>
+                           <Link to='/admin/echarts/pie'>饼状图</Link>
+                       </MenuItem>
+                       <MenuItem key='线状图'>
+                           <Link to='/admin/echarts/bar'>线状图</Link>
+                       </MenuItem>
+                   </SubMenu>
                </Menu>
             </div>
         )
