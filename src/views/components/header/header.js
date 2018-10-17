@@ -2,13 +2,13 @@ import React , {Component} from 'react'
 import {Link} from 'react-router-dom'
 import './header.less'
 
-class header extends Component {
+class head extends Component {
     constructor(props){
         super(props)
     }
     render(){
         return(
-            <div className='header-wrap'>
+            <div className='head-wrap'>
                 <div className='title fll'>
                     共享单车后台系统
                 </div>
@@ -28,4 +28,4 @@ class header extends Component {
 
 }
 
-export default header
+export default head

@@ -1,6 +1,6 @@
 import React ,{ Component } from 'react'
 import Navleft from '../components/navleft'
-import Header from '../components/header'
+import Header from '../components/header/index'
 import Footer from '../components/footer'
 import { Row, Col } from 'antd';
 import './index.less'
